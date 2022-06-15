@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs básicos</title>
+    <style>
+        section{
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h1>Inputs básicos</h1>
+    </section>
+
+    <section>
+    <form action="/hmtls/inputs_basicos.html" method="post">
+        <label>Nome</label><br>
+        <input placeholder="Insira seu Nome" type="text" name="nome" class="" id=""/><br>
+        <label>Senha</label><br>
+        <input placeholder="Insira sua Senha" type="password" name="Senha"/>
+        <br>
+
+        <label>Times</label>
+        <br>
+        <input type="text" placeholder="Insira seu Time" name="Time" list="Lista_times">
+        <datalist id="Lista_times">
+            <option value="São paulo">São paulo</option>
+            <option value="Santos">Santos</option>
+            <option value="Palmeiras">Palmeiras</option>
+            <option value="Corinthians">Corinthians</option>
+        </datalist>
+        <br><br>
+
+        <label>Opções</label>
+        <input type="radio" name="opcao"/>a
+        <input type="radio" name="opcao"/>b
+        <input type="radio" name="opcao"/>c
+        <br>
+        <label>Multipla Escolha</label>
+        <input type="checkbox" name="Multipla"/>1
+        <input type="checkbox" name="Multipla"/>2
+        <input type="checkbox" name="Multipla"/>3
+        <br>
+        <label>Texto</label><br>
+        <textarea name="Texto" cols="30" rows="10"></textarea>
+        <br>
+        <label>Arquivo</label><br>
+        <input type="file" name="arquivo"/>
+    </form>
+    </section>
+
+
+    
+</body>
+</html>
