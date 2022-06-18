@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+}
+
+section{
+    width: 1900px;
+    height: 720px;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/8ee18735-ada3-45be-b383-a94701054bb9/0c61fb9a-2dc0-44d5-a207-240a00f5f39c/BR-pt-20220613-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+}
+
+.topo{
+    display:inline-flex;
+    padding-top: 30px;
+    padding-left: 55px;
+}
+
+.button_red{
+    background-color: red;
+    border: 0px;
+}
+
+.lingua{
+    width: 120px;
+    height: 35px;
+    border: white;
+    font-size: 15px;
+    border-radius: 1px 1px 1px 1px;
+    color: white;
+    position: fixed;
+    top: 27px;
+    right: 178px;
+}
+
+#entrar{
+    width: 80px;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 16px;
+    font-style: bold;
+    color: white;
+    position: fixed;
+    top: 27px;
+    right: 68px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    position: fixed;
+    top: 175px;
+    right: 600px;
+    color: white;
+}
+h2{
+    text-align: center;
+    position: fixed;
+    font-size: 30px;
+    top: 377px;
+    right: 645px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    position: fixed;
+    font-size: 21px;
+    top: 445px;
+    right: 570px;
+    color: white;
+}
+
+#email{
+    position: fixed;
+    top: 510px;
+    right: 587px;
+}
+
+#e-mail{
+    padding: 0px;
+    border: 1px;
+    width: 494px;
+    height: 70px;
+    font-size: 14px;
+    border-radius: 1px 1px 1px 1px;
+    margin: 0px;
+}
+
+#vamos{
+    margin: 0px;
+    padding:0px;
+    width: 215px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 1px 1px 1px 1px;
+    font-style: bold;
+    color: white;
+}
